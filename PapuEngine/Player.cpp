@@ -6,7 +6,7 @@ void Player::init(float speed, glm::vec2 position, InputManager* InputManager)
 	_speed = speed;
 	_position = position;
 	_inputManager = InputManager;
-	_color.set(0, 255, 0, 255);
+	_color.set(0, 255, 255, 255);
 }
 
 void Player::update(const std::vector<std::string>& levelData)
